@@ -13,13 +13,13 @@ To run the program you need to have the GCC compiler installed in your machine. 
 After you have the GCC compiler installed you can run the following command in the terminal to compile the program:
 
 ```bash
-gcc -o game_of_life game_of_life.c
+gcc -o main.c maps.c -o game_of_life_c
 ```
 
 After you have compiled the program you can run the following command to execute the program:
 
 ```bash
-./game_of_life
+./game_of_life_c
 ```
 
 ## How to play the game
